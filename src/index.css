@@ -8,6 +8,7 @@
 :root {
   --dark-clr: #282c34;
   --link-clr: #61dafb;
+  --text-clr: #d0d0d0;
   /* font-size: calc(10px + 2vmin); */
   font-size: clamp(14px, 10px + 1vmin, 20px);
 }
