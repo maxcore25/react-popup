@@ -3,8 +3,13 @@
   place-content: center;
   min-height: 100vh;
   padding: 6rem 2rem 2rem;
-  background: linear-gradient(351deg, #8989ce, #b627d5);
-  background: linear-gradient(191deg, #c72a41, #a938b2);
+  /* background: linear-gradient(351deg, #8989ce, #b627d5);
+  background: linear-gradient(191deg, #c72a41, #a938b2); */
+
+  background: #df504d;
+  background: -webkit-linear-gradient(top left, #df504d, #7e4385);
+  background: -moz-linear-gradient(top left, #df504d, #7e4385);
+  background: linear-gradient(to bottom right, #df504d, #7e4385);
 }
 .text-container {
   max-width: 1000px;

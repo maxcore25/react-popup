@@ -13,6 +13,10 @@
   /* font-size: calc(10px + 2vmin); */
   font-size: clamp(14px, 10px + 1vmin, 20px);
 }
+::selection {
+  background: #ef2d56;
+  color: #fff;
+}
 body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
