@@ -1,12 +1,19 @@
 .hero-section {
+  display: grid;
+  place-content: center;
   min-height: 100vh;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 2rem;
   background: linear-gradient(351deg, #8989ce, #b627d5);
   background: linear-gradient(191deg, #c72a41, #a938b2);
 }
-p {
+.text-container {
+  max-width: 1000px;
   padding: 1rem;
+  line-height: 1.6;
   color: var(--text-clr);
   background: var(--dark-clr);
   border-radius: 1rem;
+}
+.text-container p {
+  margin: 20px 0;
 }

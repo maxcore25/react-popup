@@ -1,0 +1,17 @@
+.popupCallButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: monospace;
+  color: #3a3a3a;
+  background: linear-gradient(335deg, #1a55dc, #47b704);
+  outline: none;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+
+  background: #29ba76;
+  background: -webkit-linear-gradient(top left, #29ba76, #0fe86e);
+  background: -moz-linear-gradient(top left, #29ba76, #0fe86e);
+  background: linear-gradient(to bottom right, #29ba76, #0fe86e);
+}
